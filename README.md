@@ -38,12 +38,12 @@ Above is the task assigned
 
 ****_Would like to say a few words on what I did _
 
-1. First all of Used Spring security plugin to  wite sign up, login apis
-2. Built Pot and get api for operations on request table
-3. USed spring h2 database
+1. First all of Used Spring security plugin to  write sign up, login apis
+2. Built Post and get api for operations on request table
+3. Used spring h2 database
 4. Built a React APP UI, which takes the Maintainene Requestand uses axios to hit the backedn apis
 5. Written Unit testcases for some classes
-6. Used Audit Lsiteneres , Logging, Swagger APi and Actuators
+6. Used Audit Listeneres , Logging, Swagger APi and Actuators
 7. Tried a POC with docker .compose.yml to sue both UI and spring boot ina  single container
 8. Built a single FAT JAr using maven front end plugin
 9. Used Spring Jib maven plugin to build and psuh the docker image 
