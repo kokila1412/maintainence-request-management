@@ -38,7 +38,7 @@ Above is the task assigned
 
 ****_Would like to say a few words on what I did _
 
-1. First all of USed sSPring security plugin to  wite sign up, login apis
+1. First all of Used Spring security plugin to  wite sign up, login apis
 2. Built Pot and get api for operations on request table
 3. USed spring h2 database
 4. Built a React APP UI, which takes the Maintainene Requestand uses axios to hit the backedn apis
