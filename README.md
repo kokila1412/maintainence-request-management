@@ -1,5 +1,6 @@
-Tech USed:
-----------------
+
+
+Tech:
 ‘Computer/laptop set-up with 
 -JDK 17 or above
 -Springboot 3 or above
@@ -36,6 +37,7 @@ Build a solution as a single JAR to be deployed in a container.
 Above is the task assigned
 
 Would like to say what i have done here 
+
 1. First all of USed sSPring security plugin to  wite sign up, login apis
 2. Built Pot and get api for operations on request table
 3. USed spring h2 database
@@ -44,6 +46,7 @@ Would like to say what i have done here
 6. Used Audit Lsiteneres , Logging, Swagger APi and Actuators
 7. Tried a POC with docker .compose.yml to sue both UI and spring boot ina  single container
 8. Built a single FAT JAr using maven front end plugin
+9. Used Spring Jib maven plugin to build and psuh the docker image 
 
 
    Screenshot FROM Local
