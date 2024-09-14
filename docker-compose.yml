@@ -1,0 +1,31 @@
+version: '3.1'
+services:
+  backend:
+    container_name: testdb
+    image: kokila1412/spring-docker-demo-db
+    build: ./
+    ports:
+      - "8080:8080"
+    depends_on:
+      - "PostgreSQL"
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:postgresql://PostgreSQL:5432/demo_db
+      SPRING_DATASOURCE_USERNAME: "postgres"
+      SPRING_DATASOURCE_PASSWORD: "postgres"
+      SPRING_JPA_HIBERNATE_DDL_AUTO: create
+
+  PostgreSQL:
+    container_name: postgres_db
+    image: postgres
+    ports:
+      - "5432:5432"
+    environment:
+      - POSTGRES_PASSWORD=postgres
+      - POSTGRES_USER=postgres
+      - POSTGRES_DB=demo_db
+    volumes:
+      - postgre-volume:/var/lib/postgresql/data
+
+volumes:
+  postgre-volume:
+    external: true
